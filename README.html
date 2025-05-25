@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css">
+<style>
+    body {
+        background-color: #f6f8fa;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 900px;
+        padding: 45px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
+</head>
+<body>
+    <article class="markdown-body">
+        <h1>Agentic Code Review</h1>
+<p>This repo holds the source code for a team of AI agents that spring into action and perform a code review each time a <strong>.py</strong> or <strong>.js</strong> file in the "source" directory is changed or added. One agent is an expert in code security. Another is an expert in debugging, and a third is an expert in code optimization. A lead agent examines each source-code file and hands them off to the other agents. Check out <strong>handle_changed_files.py</strong> in the "scripts" directory to see the source code.</p>
+<p>To see these agents in action:</p>
+<ol>
+<li>
+<p>Create a GitHub repo and copy these files into it</p>
+</li>
+<li>
+<p>Create a GitHub secret named API_KEY and set it equal to your OpenAI API key.</p>
+</li>
+<li>
+<p>Check a <strong>.py</strong> or <strong>.js</strong> file into the "source" directory (or change an existing one).</p>
+</li>
+<li>
+<p>Wait a moment for the agents to run. The look in the "reports" directory for an MD file containing a code review.</p>
+</li>
+</ol>
+<p>After adding or changing a file, you can open the repo in your browser and navigate to the "Actions" tab to see the script run in real time. <strong>handle_changed_files.py</strong> is triggered by a GitHub action.</p>
+    </article>
+</body>
+</html>
