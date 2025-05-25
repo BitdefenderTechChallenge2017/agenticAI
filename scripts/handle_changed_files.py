@@ -5,7 +5,7 @@ from agno.models.openai import OpenAIChat
 
 MODEL='o3-mini'
 
-# Formulates a prompt for the lead agent
+# Formulates a prompt for the lead agent to run
 def make_prompt(file_contents):
     prompt = f'''
         Solicit input from other agents regarding the following source code:
