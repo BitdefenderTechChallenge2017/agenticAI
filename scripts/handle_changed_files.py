@@ -78,7 +78,6 @@ optimization_agent = Agent(
 
 team = Team(
     name='Team Lead',
-    role='Aggregate the results of code reviews by other agents and produce reports.',
     members=[security_agent, debugging_agent, optimization_agent],
     mode='collaborate',
     instructions='''
