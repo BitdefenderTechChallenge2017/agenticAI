@@ -11,7 +11,7 @@ _memory = Memory() # Shared memory for agents
 def index():
     return render_template('index.html')
 
-# REST method for invoking a team of AI agents
+# REST method for invoking a team of AI team agents
 @app.route('/team', methods=['get'])
 def ask_team():
     try:
