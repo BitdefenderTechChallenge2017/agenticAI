@@ -39,7 +39,7 @@ def ask_team():
         response.headers['X-Session-ID'] = session_id
         return response
     
-# Generator for streaming output
+# Generator for streaming the output
 def generate(chunks):
     for chunk in chunks:
         yield chunk.content
